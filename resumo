@@ -1,0 +1,16 @@
+Gerenciador de Tarefas em C++ (CLI)
+Este é um Gerenciador de Tarefas simples e funcional desenvolvido em C++, operado via linha de comando (CLI). Ideal para quem busca uma ferramenta básica para organizar tarefas diárias ou para desenvolvedores que estão iniciando em C++ e querem ver conceitos fundamentais em ação.
+
+Funcionalidades:
+Adicionar Tarefas: Inclua novas tarefas na sua lista com uma breve descrição.
+
+Visualizar Tarefas: Veja todas as tarefas cadastradas, com indicação clara se estão pendentes ou concluídas.
+
+Marcar como Concluída: Altere o status de uma tarefa para "concluída" de forma rápida e intuitiva.
+
+Remover Tarefas: Exclua tarefas da lista quando não forem mais necessárias.
+
+Como Funciona:
+O programa utiliza uma estrutura tarefa para representar cada item (contendo a descrição e o status de conclusão) e armazena todas as tarefas em um std::vector, permitindo o gerenciamento dinâmico da lista. A interação é feita através de um menu simples e direto no terminal, com validação de entrada para garantir uma experiência de uso fluida.
+
+Este projeto é um excelente exemplo de como aplicar conceitos essenciais de C++, como estruturas de dados, funções, loops e manipulação de entrada/saída, em uma aplicação prática.
